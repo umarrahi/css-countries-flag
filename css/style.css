@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+body {
+    font-family: "Protest Strike", sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.first-row {
+    margin-right: 50px;
+}
+
+.second-row {
+    margin-right: 50px;
+}
+
+/*  ===== Argentena Flag ===== */
+/*  Background Blue: #DDEFFF
+    Flag Sky Blue: #8AD3F4
+    White: #FFFFFF */
+
+.argent {
+    background-color: #8AD3F4;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    text-align: center;
+}
+
+.argent .mid-argent {
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 60px;
+}
+
+.argent .mid-argent .argent-logo {
+    position: absolute;
+    width: 100%;
+    top: 5px;
+}
+
+.argent .mid-argent .argent-logo img {
+    width: 70px;
+}
+
+/*  ===== Austria Flag ===== */
+/*  Background : #D72427;
+    White: #FFFFFF */
+
+.austria {
+    background-color: #D72427;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.austria .mid-austria {
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 60px;
+}
+
+/*  ===== Azerbaijan Flag ===== */
+/*  Blue : #01AEF0;
+    Red: #EF3341F
+    Green: #00A650; */
+
+.azer {
+    background-color: #01AEF0;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+
+.azer .mid-azer {
+    background-color: #EF3341;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 60px;
+}
+
+.azer .mid-azer .azer-logo {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.azer .mid-azer .azer-logo img {
+    width: 80px;
+}
+
+.azer .bottom-azer {
+    background-color: #00A650;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 130px;
+}
+
+/*  ===== Bangladesh Flag ===== */
+/*  Green: #006A4C
+    Logo Color: #F4253F */
+
+.bangla {
+    background-color: #00A650;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bangla .bangla-logo {
+    background-color: #F4253F;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    border-radius: 50%;
+}
+
+/*  ===== Barbados Flag ===== */
+/*  Blue: #002180
+    Black: #FEC820 */
+
+.barb {
+    background-color: #002180;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    text-align: center;
+}
+
+.barb .mid-barb {
+    background-color: #FEC820;
+    width: 120px;
+    height: 200px;
+    position: absolute;
+    left: 140px;
+}
+
+.barb .mid-barb .barb-logo {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+}
+
+.barb .mid-barb .barb-logo img {
+    width: 90px;
+}
+
+/*  ===== Botswana Flag ===== */
+/*  Blue: #6DABD2
+    Black: #000000
+    White: #FFFFFF */
+
+.bots {
+    background-color: #6DABD2;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    /* text-align: center; */
+    margin-top: 20px;
+
+}
+
+.bots .mid-bots {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 60px;
+}
+
+.bots .mid-bots div {
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 10px;
+}
